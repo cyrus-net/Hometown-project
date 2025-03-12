@@ -1,0 +1,103 @@
+body {
+    text-align: center;
+    background-color: #ddeae1;
+    font-family: "Noto Sans", sans-serif;
+}
+#town-body {
+    border: 10px solid white;
+    border-radius: 10px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hometown {
+    background-image: url(images/ikejapic.jpeg);
+    background-size: cover;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 0;
+    border-radius: 3px;
+}
+.hometown-text {
+    background-color: #4f7a91;
+    width: 150px;
+    font-size: 24px;
+    margin: 0 auto;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.hometown-text-second {
+    background-color: #1a345d;
+    color: #ffffff;
+    width: 350px;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 5px;
+}
+.about-pic-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.ikeja-mall-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.ikeja-park-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.ikeja-restuarant-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.about-text {
+    color: #082a54;
+}
+.foll-text {
+    color: #3d4a62;
+}
+.lead-text {
+    color: #082a54;
+}
+.about {
+    background-color: #f2faef;
+    margin: 0;
+    padding: 10px;
+}
+h2, h3 {
+    color: #082a54;
+}
+p {
+    color: #3d4a62;
+}
+.foot {
+    background-color: #ffffff;
+    padding: 10px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.card {
+    background-color: #a8dadb;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+}
+.favour-pic {
+    border-radius: 6px;
+}
+.card-text {
+    margin-left: 40px;
+}
